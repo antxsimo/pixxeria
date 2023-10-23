@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    text-align: center;/*alinea titulo*/
+    text-shadow: 2px 3px grey; /*da sombra*/
+    text-transform: capitalize; /*mayuscula primera*/
+}
+
+/* para que un ciclo de imagenes tenga lo mismo se pone*/
+article span img{
+    height: 200px;
+    width: 200px;
+}
+/*para una sola imagen*/
+img{
+    height: 100px;
+    width: 100px;
+}
+li{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block; /*este es importante*/
+}

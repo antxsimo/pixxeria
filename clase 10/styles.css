@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+}
+a{
+    background-color: aqua;
+    color: black;
+    padding: 2px;
+    border: 1px solid blue;
+    transition-property: all;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.3s;
+} 
+
+a:hover{
+    background-color:blue;
+    color: white;
+    padding: 8px;
+    border: 1px solid white;
+    /*text-decoration: none; saca la linea*/
+    
+    transition-property: all;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.3s;
+}
+/*cuando posiciono cambia las fnciones
+*/
+a:visited{
+    background-color: violet;
+}
+/*sirve para mostr  ar qe ya selecciono la pagina */
+a:active{
+    background-color: black;
+    color: red;
+}
+
+@media screen and (max-width:640px){
+    p{
+        color: red;
+    }
+}
+
+@media screen and (max-width:1024px) and (min -9+-width:640px){
+    p{
+        color: blue;
+    }
+}
+
+a::before{
+    content: "t vieja     ";
+}
+
+a::after{
+    content: "          bye bye";
+}

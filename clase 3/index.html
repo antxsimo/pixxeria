@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,th,td{
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+ <header>
+    <nav>
+        <a href="#listas">Listas</a>
+        <a href="#tablas">tablas</a>
+        <a href="#chaca">colsplan</a>
+    </nav>
+ </header>
+ <main>
+    <selection id="listas">
+        <h2>lista ordenada</h2>
+        <ol type="I">
+            <li>opcion 1</li>
+            <li>opcion 2</li>
+            <li>opcion 3</li>
+            <li>opcion 4</li>
+            <li>opcion 5</li>
+            <li>opcion 6</li>
+        </ol>
+        <h2>lista desordenada</h2>
+        <ul>
+            <li>opcion 1</li>
+            <li>opcion 2</li>
+            <li>opcion 3</li>
+        </ul>
+    </selection>
+    <selection id="tablas">
+        <h2>tablas</h2>
+        <table>
+            <tr>
+                <th>titulo columna </th>
+                <th>titulo columna </th>
+                <th>titulo columna </th>
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+        </table>
+    </selection>
+    <selection>
+        <h2>tablitas</h2>
+        <table>
+            <tr>
+                <th>curso</th>
+                <th>comision</th>
+            </tr>
+            <tr>
+                <td>fullstack</td>
+                <td>2123</td>
+            </tr>
+            <tr>
+                <td>java</td>
+                <td>2528</td>
+            </tr>
+            <tr>
+                <td>web</td>
+                <td>2254</td>
+            </tr>
+        </table>
+    </selection>
+    
+    <selection id="chaca">
+        <h2>aguante chaca</h2>
+        <table>
+            <tr>
+                <th>curso</th>
+                <th>comision</th>
+            </tr>
+            <tr>
+                <td colspan="2">fullstack</td>
+            </tr>
+            <tr>
+                <td rowspan="2">java</td>
+                <td>2528</td>
+            </tr>
+            <tr>
+                <td>2254</td>
+            </tr>
+        </table>
+    </selection>
+ </main>
+ <footer>
+
+ </footer>   
+
+</body>
+</html>

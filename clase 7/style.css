@@ -1,0 +1,38 @@
+/*p{
+    color: aquamarine; !important;   te anula todo lo que venga despues 
+}
+div p{
+    color: blue;
+}*/
+*{
+margin: 0;
+box-sizing:content-box;/* las cajas son del tamaño qe quieren*/
+/*box-sizing: border-box; las cajas son del mismo tamaño*/
+}
+.margin{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.borde{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    border: 20px solid brown;
+}
+
+.padding{
+    background-color:darkorchid;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.caja{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10 solid yellow;
+}

@@ -1,0 +1,34 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(90deg, blue,white);
+}
+
+h1{
+    color: aqua;
+}
+
+.grid-container{
+    display: grid;
+    /*grid-template-columns: 15rem 10rem 15rem 10rem;*/
+    grid-template-columns: repeat(3,15rem);/* si las columnas se repiten para no poner muchas lineas se hace como la columna anterior*/
+    grid-template-rows: 15rem 10rem 12rem 8rem;
+    gap: 0.5rem;/*margen del mismo tamañp entre todo*/
+    /*en la carpeta estan las otras dos formas*/
+}
+.grid-item{
+    border: 1px solid black;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#cajita-especial{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+}
